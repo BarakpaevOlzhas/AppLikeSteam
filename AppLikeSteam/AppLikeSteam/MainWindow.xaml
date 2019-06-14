@@ -1,0 +1,15 @@
+﻿<Window x:Class="AppLikeSteam.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AppLikeSteam"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FF2D2D30">
+        <ListBox Name="listBoxForGame" HorizontalAlignment="Left" Height="419" VerticalAlignment="Top" Width="498" Background="#FF252526" BorderBrush="#FF252526"/>
+        <Label Name="lableNameGame" FontSize="20" HorizontalAlignment="Left" Margin="503,10,0,0" VerticalAlignment="Top" Height="86" Width="279"/>
+        <TextBlock HorizontalAlignment="Left" Margin="503,101,0,0" TextWrapping="Wrap" Name="lableDiscription" Text="Discription: "  VerticalAlignment="Top" Height="308" Width="279"/>
+
+    </Grid>
+</Window>
